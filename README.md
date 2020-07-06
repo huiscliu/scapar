@@ -1,4 +1,4 @@
-# SCAPAR: A Scalable Text Parser for Data Analytics
+# SCAPAR: A Scalable Text Parser for Data Sciences
 
 In data sciences industry, they are large amounts of data to process. Here SCAPAR is developed to handle these data. Data formats are designed and proper reading routines are implemented. The library is designed for Linux, Unix and Mac systems. The code is written by C.
 
