@@ -1,0 +1,11 @@
+
+
+scapar.o: scapar.c ../include/scapar-config.h ../include/scapar.h ../include/scapar-sec.h ../include/scapar-sec-op.h ../include/scapar-table.h ../include/scapar-types.h ../include/scapar-utils.h ../include/scapar-vec-op.h
+
+scapar-sec.o: scapar-sec.c ../include/scapar-config.h ../include/scapar-sec.h ../include/scapar-sec-op.h ../include/scapar-table.h ../include/scapar-types.h ../include/scapar-utils.h ../include/scapar-vec-op.h
+
+scapar-table.o: scapar-table.c ../include/scapar-config.h ../include/scapar-table.h ../include/scapar-types.h ../include/scapar-utils.h ../include/scapar-vec-op.h
+
+scapar-utils.o: scapar-utils.c ../include/scapar-config.h ../include/scapar-types.h ../include/scapar-utils.h
+
+scapar-vec.o: scapar-vec.c ../include/scapar-config.h ../include/scapar-sec-op.h ../include/scapar-table.h ../include/scapar-types.h ../include/scapar-utils.h ../include/scapar-vec.h ../include/scapar-vec-op.h

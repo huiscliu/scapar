@@ -1,0 +1,14 @@
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: hello_scapar

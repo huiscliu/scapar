@@ -1,0 +1,101 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+SCAPAR_INFO_FLT_	scapar.c	/^SCAPAR_INFO SCAPAR_INFO_FLT_      = {SCAPAR_T_FLT,   0, 0, NULL};$/;"	v
+SCAPAR_INFO_INT_	scapar.c	/^SCAPAR_INFO SCAPAR_INFO_INT_        = {SCAPAR_T_INT,     0, 0, NULL};$/;"	v
+SCAPAR_INFO_STR_	scapar.c	/^SCAPAR_INFO SCAPAR_INFO_STR_     = {SCAPAR_T_STR,  0, 0, NULL};$/;"	v
+SCAPAR_INFO_VEC_FLT_	scapar.c	/^SCAPAR_INFO SCAPAR_INFO_VEC_FLT_  = {SCAPAR_T_VEC_FLT,   0, 0, NULL};$/;"	v
+SCAPAR_INFO_VEC_INT_	scapar.c	/^SCAPAR_INFO SCAPAR_INFO_VEC_INT_    = {SCAPAR_T_VEC_INT,     0, 0, NULL};$/;"	v
+SCAPAR_INFO_VEC_STR_	scapar.c	/^SCAPAR_INFO SCAPAR_INFO_VEC_STR_ = {SCAPAR_T_VEC_STR,  0, 0, NULL};$/;"	v
+buf_size_default	scapar.c	/^static SCAPAR_INT buf_size_default = 4096;$/;"	v	file:
+scapar_atof	scapar-utils.c	/^SCAPAR_FLT scapar_atof(const char *ptr)$/;"	f
+scapar_atoi	scapar-utils.c	/^SCAPAR_INT scapar_atoi(const char *ptr)$/;"	f
+scapar_calloc	scapar-utils.c	/^void * scapar_calloc(size_t nmemb, size_t size)$/;"	f
+scapar_check_if_discard	scapar-utils.c	/^int scapar_check_if_discard(const char *b, char m)$/;"	f
+scapar_check_input_is_comment	scapar-utils.c	/^int scapar_check_input_is_comment(const char *b, char cmt)$/;"	f
+scapar_check_input_is_empty	scapar-utils.c	/^int scapar_check_input_is_empty(const char *b)$/;"	f
+scapar_check_input_is_section_ending	scapar-utils.c	/^int scapar_check_input_is_section_ending(const char *b, char *cmt)$/;"	f
+scapar_error	scapar-utils.c	/^void scapar_error(int code, const char *fmt, ...)$/;"	f
+scapar_fgets	scapar-utils.c	/^char * scapar_fgets(char *s, int size, FILE *stream, size_t *lno)$/;"	f
+scapar_finalize	scapar.c	/^void scapar_finalize(SCAPAR *scapar)$/;"	f
+scapar_free	scapar-utils.c	/^void scapar_free(void *ptr)$/;"	f
+scapar_get_mem	scapar-utils.c	/^SCAPAR_FLT scapar_get_mem(void)$/;"	f
+scapar_get_next_value_from_buf	scapar-sec.c	/^static SCAPAR_INT scapar_get_next_value_from_buf(const char *b, char *v, char **ret)$/;"	f	file:
+scapar_get_section	scapar.c	/^SCAPAR_SEC * scapar_get_section(SCAPAR *scapar, const char *key)$/;"	f
+scapar_get_time	scapar-utils.c	/^SCAPAR_FLT scapar_get_time(void)$/;"	f
+scapar_info_copy	scapar-utils.c	/^SCAPAR_INFO * scapar_info_copy(SCAPAR_INFO *in)$/;"	f
+scapar_info_destroy	scapar-utils.c	/^void scapar_info_destroy(SCAPAR_INFO *in)$/;"	f
+scapar_info_init	scapar-utils.c	/^void scapar_info_init(SCAPAR_INFO *in)$/;"	f
+scapar_init	scapar.c	/^void scapar_init(SCAPAR *scapar, const char *fn)$/;"	f
+scapar_init_user_type	scapar.c	/^void scapar_init_user_type(SCAPAR *scapar, SCAPAR_TYPE type, SCAPAR_UT_INFO ut)$/;"	f
+scapar_item_key_comp	scapar-utils.c	/^int scapar_item_key_comp(const void *p, const void *n)$/;"	f
+scapar_magic_check	scapar-utils.c	/^void scapar_magic_check(const SCAPAR *scapar)$/;"	f
+scapar_malloc	scapar-utils.c	/^void * scapar_malloc(size_t size)$/;"	f
+scapar_parse	scapar.c	/^void scapar_parse(SCAPAR *scapar)$/;"	f
+scapar_parse_table_from_fh	scapar-table.c	/^void scapar_parse_table_from_fh(SCAPAR_TABLE *table, FILE *f, char cmt_mark, char *line, SCAPAR_INT ls, size_t *ln_no)$/;"	f
+scapar_pointer_check	scapar-utils.c	/^void scapar_pointer_check(const char *func, const void *key, const char *kn)$/;"	f
+scapar_print	scapar.c	/^void scapar_print(SCAPAR *scapar)$/;"	f
+scapar_print_by_key	scapar.c	/^void scapar_print_by_key(SCAPAR *scapar, const char *key)$/;"	f
+scapar_printf	scapar-utils.c	/^int scapar_printf(const char *fmt, ...)$/;"	f
+scapar_query	scapar.c	/^SCAPAR_ITEM * scapar_query(SCAPAR *s, const char *key)$/;"	f
+scapar_realloc	scapar-utils.c	/^void * scapar_realloc(void *ptr, size_t size)$/;"	f
+scapar_register	scapar.c	/^void scapar_register(SCAPAR *scapar, const char *key, void *addr, SCAPAR_TYPE type, void *info)$/;"	f
+scapar_register_float	scapar.c	/^void scapar_register_float(SCAPAR *scapar, const char *key, SCAPAR_FLT *addr)$/;"	f
+scapar_register_int	scapar.c	/^void scapar_register_int(SCAPAR *scapar, const char *key, SCAPAR_INT *addr)$/;"	f
+scapar_register_section	scapar.c	/^void scapar_register_section(SCAPAR *scapar, const char *key, void *addr)$/;"	f
+scapar_register_string	scapar.c	/^void scapar_register_string(SCAPAR *scapar, const char *key, char **addr)$/;"	f
+scapar_register_table	scapar.c	/^void scapar_register_table(SCAPAR *scapar, const char *key, SCAPAR_TABLE *addr, void *info)$/;"	f
+scapar_register_user_type	scapar.c	/^void scapar_register_user_type(SCAPAR *scapar, const char *key, void *addr, SCAPAR_TYPE type, void *info)$/;"	f
+scapar_register_vec	scapar.c	/^void scapar_register_vec(SCAPAR *scapar, const char *key, SCAPAR_VEC *addr, void *info)$/;"	f
+scapar_register_vec_float	scapar.c	/^void scapar_register_vec_float(SCAPAR *scapar, const char *key, SCAPAR_VEC *addr)$/;"	f
+scapar_register_vec_int	scapar.c	/^void scapar_register_vec_int(SCAPAR *scapar, const char *key, SCAPAR_VEC *addr)$/;"	f
+scapar_register_vec_string	scapar.c	/^void scapar_register_vec_string(SCAPAR *scapar, const char *key, SCAPAR_VEC *addr)$/;"	f
+scapar_sec_adjust_space	scapar-sec.c	/^static void scapar_sec_adjust_space(SCAPAR_SEC *s)$/;"	f	file:
+scapar_sec_finalize	scapar-sec.c	/^void scapar_sec_finalize(SCAPAR_SEC *s, void *base, SCAPAR_BOOL destroy)$/;"	f
+scapar_sec_get_section	scapar-sec.c	/^SCAPAR_SEC * scapar_sec_get_section(SCAPAR_SEC *s, const char *key)$/;"	f
+scapar_sec_init	scapar-sec.c	/^void scapar_sec_init(SCAPAR_SEC *s)$/;"	f
+scapar_sec_init_user_type	scapar-sec.c	/^void scapar_sec_init_user_type(SCAPAR_SEC *s, SCAPAR_TYPE type, SCAPAR_UT_INFO ut)$/;"	f
+scapar_sec_initialized	scapar-sec.c	/^SCAPAR_BOOL scapar_sec_initialized(const SCAPAR_SEC *sec)$/;"	f
+scapar_sec_parse_from_fh	scapar-sec.c	/^void scapar_sec_parse_from_fh(SCAPAR_SEC *s, void *base, char **line, char **line2, size_t *len,$/;"	f
+scapar_sec_print	scapar-sec.c	/^void scapar_sec_print(SCAPAR_SEC *s)$/;"	f
+scapar_sec_print_by_key	scapar-sec.c	/^void scapar_sec_print_by_key(const SCAPAR_SEC *s, const char *key)$/;"	f
+scapar_sec_query	scapar-sec.c	/^SCAPAR_ITEM * scapar_sec_query(const SCAPAR_SEC *s, const char *key)$/;"	f
+scapar_sec_register	scapar-sec.c	/^void scapar_sec_register(SCAPAR_SEC *s, SCAPAR *scapar, const char *key, void *addr, SCAPAR_TYPE type, SCAPAR_INFO *info)$/;"	f
+scapar_sec_register_offset	scapar-sec.c	/^void scapar_sec_register_offset(SCAPAR_SEC *s, SCAPAR *scapar, const char *key, SCAPAR_ADDR offset,$/;"	f
+scapar_sec_restore_parse_mark	scapar-sec.c	/^static void scapar_sec_restore_parse_mark(SCAPAR_SEC *s)$/;"	f	file:
+scapar_sec_sort	scapar-sec.c	/^void scapar_sec_sort(SCAPAR_SEC *s)$/;"	f
+scapar_set_case_sensitive	scapar.c	/^void scapar_set_case_sensitive(SCAPAR *scapar, SCAPAR_BOOL cs)$/;"	f
+scapar_set_comment_mark	scapar.c	/^void scapar_set_comment_mark(SCAPAR *scapar, char m)$/;"	f
+scapar_set_dup_check	scapar.c	/^void scapar_set_dup_check(SCAPAR *scapar, SCAPAR_BOOL check)$/;"	f
+scapar_set_max_line_length	scapar.c	/^void scapar_set_max_line_length(SCAPAR *scapar, size_t m)$/;"	f
+scapar_set_sec_ending_mark	scapar.c	/^void scapar_set_sec_ending_mark(SCAPAR *scapar, char *m)$/;"	f
+scapar_sort	scapar.c	/^void scapar_sort(SCAPAR *scapar)$/;"	f
+scapar_str_remove_spaces	scapar-utils.c	/^void scapar_str_remove_spaces(char *str)$/;"	f
+scapar_string_to_lower	scapar-utils.c	/^void scapar_string_to_lower(char *str)$/;"	f
+scapar_table_add_entry	scapar-table.c	/^int scapar_table_add_entry(SCAPAR_TABLE *v, char *buf, SCAPAR_INT lno, char cmt)$/;"	f
+scapar_table_create	scapar-table.c	/^void scapar_table_create(SCAPAR_TABLE *v, const char *key, SCAPAR_IDX cols, const SCAPAR_TYPE *type)$/;"	f
+scapar_table_destroy	scapar-table.c	/^void scapar_table_destroy(SCAPAR_TABLE *v)$/;"	f
+scapar_table_get_col	scapar-table.c	/^void * scapar_table_get_col(const SCAPAR_TABLE *t, SCAPAR_IDX col)$/;"	f
+scapar_table_get_data_type	scapar-table.c	/^SCAPAR_TYPE scapar_table_get_data_type(SCAPAR_TABLE *t, SCAPAR_IDX n)$/;"	f
+scapar_table_get_key	scapar-table.c	/^char * scapar_table_get_key(SCAPAR_TABLE *t)$/;"	f
+scapar_table_get_num_cols	scapar-table.c	/^SCAPAR_IDX scapar_table_get_num_cols(SCAPAR_TABLE *t)$/;"	f
+scapar_table_get_num_entries	scapar-table.c	/^SCAPAR_IDX scapar_table_get_num_entries(SCAPAR_TABLE *t)$/;"	f
+scapar_table_get_value	scapar-table.c	/^void * scapar_table_get_value(SCAPAR_TABLE *v, SCAPAR_IDX row, SCAPAR_IDX col)$/;"	f
+scapar_table_initialized	scapar-table.c	/^SCAPAR_BOOL scapar_table_initialized(const SCAPAR_TABLE *t)$/;"	f
+scapar_table_print	scapar-table.c	/^void scapar_table_print(const SCAPAR_TABLE *v)$/;"	f
+scapar_vec_add_entry	scapar-vec.c	/^void scapar_vec_add_entry(SCAPAR_VEC *v, void *e)$/;"	f
+scapar_vec_destroy	scapar-vec.c	/^void scapar_vec_destroy(SCAPAR_VEC *vec)$/;"	f
+scapar_vec_float_get_value	scapar-vec.c	/^SCAPAR_FLT scapar_vec_float_get_value(SCAPAR_VEC *v, SCAPAR_IDX n)$/;"	f
+scapar_vec_get_size	scapar-vec.c	/^SCAPAR_IDX scapar_vec_get_size(SCAPAR_VEC *v)$/;"	f
+scapar_vec_get_value	scapar-vec.c	/^void * scapar_vec_get_value(SCAPAR_VEC *v, SCAPAR_IDX n)$/;"	f
+scapar_vec_init	scapar-vec.c	/^void scapar_vec_init(SCAPAR_VEC *vec, SCAPAR_TYPE type, SCAPAR_INT tsize, const char *key)$/;"	f
+scapar_vec_initialized	scapar-vec.c	/^SCAPAR_BOOL scapar_vec_initialized(const SCAPAR_VEC *vec)$/;"	f
+scapar_vec_int_get_value	scapar-vec.c	/^SCAPAR_INT scapar_vec_int_get_value(SCAPAR_VEC *v, SCAPAR_IDX n)$/;"	f
+scapar_vec_print	scapar-vec.c	/^void scapar_vec_print(SCAPAR_VEC *v)$/;"	f
+scapar_vec_string_get_value	scapar-vec.c	/^char * scapar_vec_string_get_value(SCAPAR_VEC *v, SCAPAR_IDX n)$/;"	f
+scapar_vec_table_get_value	scapar-vec.c	/^SCAPAR_TABLE scapar_vec_table_get_value(SCAPAR_VEC *v, SCAPAR_IDX n)$/;"	f
+scapar_vec_vec_get_value	scapar-vec.c	/^SCAPAR_VEC scapar_vec_vec_get_value(SCAPAR_VEC *v, SCAPAR_IDX n)$/;"	f
+scapar_warning	scapar-utils.c	/^int scapar_warning(const char *fmt, ...)$/;"	f

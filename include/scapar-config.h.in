@@ -1,0 +1,21 @@
+#ifndef SCAPAR_CONFIG_H
+#define SCAPAR_CONFIG_H
+
+#define HAVE_STDINT_H           1
+#define SCAPAR_USE_LONG         0
+#define SCAPAR_USE_LONG_LONG    0
+#define IFMT                    "d"
+#define XFMT                    "ld"
+
+#define SCAPAR_USE_LONG_DOUBLE  0
+#define FFMT                    "g"
+
+#define HAVE_SYS_STAT_H     0
+#define TIME_WITH_SYS_TIME  0
+#define HAVE_SYS_TIME_H     0
+#define HAVE_SYS_RESOURCE_H 0
+#define HAVE_GETTIMEOFDAY   0
+#define HAVE_GETRUSAGE      0
+#define USE_UNIX            1
+
+#endif

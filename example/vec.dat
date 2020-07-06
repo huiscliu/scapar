@@ -1,0 +1,41 @@
+
+# int vector
+vi: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of int, float and string
+svi: 5 5 6 7 3 2 11
+svf: 1.5 2.5 3.6 7 3 2 11
+svs: hi this is jack. jill hill
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+

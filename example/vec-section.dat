@@ -1,0 +1,440 @@
+
+# section 1
+sec-stt:
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+
+# section ending mark 
+/
+
+# section 2
+sec-stt:
+
+# scalar: dimension
+dim: 2
+
+# scalar: verb
+verb: 1
+
+# scalar: km = 1.1
+km: \
+#################
+    1.1
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 2 \
+#
+#
+2 \
+###
+2 4
+
+# float vector
+vf: 2.1 22 4.2e-1 \
+    0.2 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 3 3
+vvi: 3 3 6 
+vvi: 3 3 6  1 1 1
+vvi: 3 3 6  0 1 1 11 1 1 1 
+vvi: 0 1 1 11 1 1 1 
+
+# vector of vector of float
+vvf: 1. 1.2
+vvf: 1. 1.2 22.1 4. 1e-2 1.1
+vvf: 1 1 1 1 1 1 1 1. 1.2 22.1 4. 1e-2 1.1
+vvf: 0.2 1 1 1  1 1 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+
+# section ending mark 
+/
+
+# section 3
+sec-stt:
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+
+# section ending mark 
+/
+
+# section 4
+sec-stt:
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+
+# section ending mark 
+/
+
+# section 5
+sec-stt:
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+
+# section ending mark 
+/
+
+# section 6
+sec-stt:
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+
+# section ending mark 
+/
+
+# section 7
+sec-stt:
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom Mmm
+
+# section ending mark 
+/
+
+# section 8
+sec-stt:
+
+# scalar: dimension
+dim: 9777
+
+# scalar: verb
+verb: 23
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2333333333333333
+
+# scalar: file name
+fn: hello_scapar
+
+# int vector
+vd: 9 \
+#
+#
+9 \
+###
+9 4
+
+# float vector
+vf: 9.9 99 4.9e-2 \
+    0.9 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of vector of int
+vvi: 2 2
+vvi: 2 2 6 
+vvi: 2 2 6  9 9 2
+vvi: 2 2 6  0 9 9 99 9 9 2 
+vvi: 0 9 9 99 9 9 2 
+
+# vector of vector of float
+vvf: 9. 2.9
+vvf: 2. 2.9 99.2 4. 9e-9 2.2
+vvf: 9 9 9 9 2 2 2 2. 2.9 99.2 4. 9e-9 2.2
+vvf: 0.9 9 9 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: aai bc cn xxy hi hi_mmon
+vvs: jfk ni hao this is jill i am looking for jack and hill
+vvs: bunny cops high hijack tommy xMmm
+
+# section ending mark 
+/

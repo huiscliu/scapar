@@ -1,0 +1,128 @@
+
+# scalar: dimension
+dim: 3
+
+# scalar: verb
+verb: 2
+
+# scalar: km = 2.2
+km: \
+#################
+    2.2
+
+# scalar: file name
+fn: keyword
+
+# int vector
+vi: 3 \
+#
+#
+3 \
+###
+3 4
+
+# float vector
+vf: 3.1 33 4.3e-2 \
+    0.3 \
+
+#string vector
+vs: hello world from \
+    here
+
+# vector of int, float and string
+svi: 5 5 6 7 3 2 11
+svf: 1.5 2.5 3.6 7 3 2 11
+svs: hi this is jack. jill hill
+
+# vector of vector of int
+vvi: 5 5
+vvi: 5 5 6 
+vvi: 5 5 6  1 1 2
+vvi: 5 5 6  0 1 1 11 1 1 2 
+vvi: 0 1 1 11 1 1 2 
+
+# vector of vector of float
+vvf: 1. 2.3
+vvf: 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 1 1 1 1 2 2 2 2. 2.3 33.2 4. 1e-3 2.2
+vvf: 0.3 1 1 2  2 2 
+
+# vector of vector of string
+vvs: hi hi
+vvs: a b c xx hi hi
+vvs: j ni hao this is jill i am looking for jack and hill
+vvs: bunny hops high hi tom emma
+
+# table
+tri:
+# first row
+1.21 2. 3
+#second row
+2 11 5.3
+2 11 5.3
+2 11 0
+2 11 .3
+2 11 5.
+2 11 5.3
+2 11 5.3
+111 1e-3 22.6
+
+# vector of table 
+# table 1
+mv:
+1.111111 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+1. 2. 3
+2 11 223
+111 1e-3 55
+
+
+# table 2
+mv:
+1. 2. 3
+2 1 22
+2 1 22
+2 1 22
+2 1 22
+2 1 22
+2 1 22
+2 1 22
+11 1e-3 55
+11 1e-3 55
+11 1e-3 55
+
+# table 3
+mv:
+1. 2. 3e-1
+2 11 22
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+1. 2. 3e-1
+2 11 22
+2 11 22
+2 11 22
+1.1 1e-3 55
+
+# user defined data type
+user: 3
